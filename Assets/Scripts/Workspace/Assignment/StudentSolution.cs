@@ -12,8 +12,9 @@ namespace Assignment
             int target = 90;
             int index = -1;
 
-            // Your code here ...
-            // ...
+            int[] array = new int[] { 34, 21, 56, 12, 78, 90, 11, 23 };
+            int target = 90;
+            int index = -1;
 
 
             return index;
@@ -31,8 +32,15 @@ namespace Assignment
             int row = -1;
             int col = -1;
 
-            // Your code here ...
-            // ...
+            int[,] array = new int[,]
+{
+    { 34, 21, 56 },
+    { 12, 78, 90 },
+    { 11, 23, 45 }
+};
+            int target = 23;
+            int row = -1;
+            int col = -1;
 
             return new[] { row, col };
         }

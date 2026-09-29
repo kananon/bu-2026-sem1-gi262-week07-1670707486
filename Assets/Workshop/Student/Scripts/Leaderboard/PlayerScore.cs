@@ -1,5 +1,6 @@
 namespace Searching
 {
+
     public class PlayerScore
     {
         public string playerName;
@@ -10,5 +11,6 @@ namespace Searching
             this.playerName = playerName;
             this.score = score;
         }
+
     }
 }
